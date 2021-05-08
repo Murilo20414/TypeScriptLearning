@@ -1,0 +1,18 @@
+{
+    "compilerOptions": {
+        "target": "es6",
+        "outDir": "app/js",
+        "noEmitOnError": true,
+        "noImplicitAny": true
+    },
+    "include": [
+        "app/ts/**/*"
+    ]
+}
+
+/*
+ * configuracoes para compilador. 
+ *      Qual sera a "tecnologia" (es6, no caso) de origem para poder converter
+ *      Onde ficara a pasta com os arquivos de codigos convertidos para js
+ *      e onde ficara o codigo em typescript
+*/
